@@ -570,7 +570,7 @@ random: end
 
 l: start_info
 t: info
-q: Vége a gyakorlásnak. <b>Most kezdődik a feladat!</b> Ha szükségesnek érzi, a feladat elvégzése közben bármikor tarthat egy pár perces szünetet.
+q: Vége a gyakorlásnak. <b>Most kezdődik a feladat!</b> Ha szükségesnek érzi, a feladat elvégzése közben bármikor tarthat egy <b>maximum 5 perces szünetet</b>.
 
 ##########################################################################################
 ##################### START ##############################################################
