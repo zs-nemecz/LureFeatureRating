@@ -193,6 +193,7 @@ scale: comprehension
 - Teljes mértékben érthető
 
 l: comprehension_check
+o: table
 q: Mennyire volt érthető az Ön számára, hogy mit jelentenek az alábbi tulajdonságok?
 t: scale comprehension
 - <b>A kép élessége</b>
@@ -245,17 +246,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 l: sim_s008
 i: s008a.jpg s008a.jpg
@@ -271,17 +272,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -299,17 +300,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -327,17 +328,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -355,17 +356,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -383,17 +384,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -411,17 +412,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -439,17 +440,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -467,17 +468,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -495,17 +496,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -523,17 +524,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 #################################################
 
@@ -551,17 +552,17 @@ o: table
 o: link
 o: free 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
-- A kép élessége
-- Pozíció
-- Forma
-- Szín
-- Méret
-- Tárgyon belüli mintázat
-- Állapot
-- Használhatóság
-- Funkció
-- A tárgyak száma
-- Elrendezés - ha több tárgy van a képen
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
 
 random: end
 
