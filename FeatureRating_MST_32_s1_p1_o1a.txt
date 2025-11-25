@@ -1,0 +1,1579 @@
+# Instructions
+
+page: begin
+
+l: inst1
+t: info
+q: A feladat során képpárokat mutatunk be Önnek. Minden képpár esetében két kérdést teszünk fel.<br>
+Először azt kell bejelölnie egy skálán (0 - 5), hogy a képeket és a képeken látható tárgyakat mennyire tartja különbözőnek.<br>
+<b>Alább mutatunk egy példát.</b> 
+
+
+l: sim_demo
+i: i034a.jpg i034b.jpg
+t: range
+o: free
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: inst2
+t: info
+q: Ezután arra kérjük, jelölje be, pontosan milyen tulajdonságokban térnek el a képek vagy a tárgyak.<br>
+Több tulajdonságot is megjelölhet, de arra kérjük, <b>csak azokat a tulajdonságokat jelölje meg eltérőként, amelyek meghatározták az Ön döntését arról, hogy <i>mennyire különbözőek</i> a képek/tárgyak</b>. Ha a képek/tárgyak nem térnek el az adott tulajdonság mentén, jelölje be az Azonosak opciót. 
+
+scale: diff
+- {score=0} Azonosak
+- {score=1} Kicsit eltérnek
+- {score=2} Jelentősen eltérnek
+
+l: features_demo
+i: i034a.jpg i034b.jpg
+t: scale diff
+o: link
+o: table
+o: free
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
+- <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
+- <span style="cursor:help;" title="A tárgyak alakja, formája különböző.">Forma</span>
+- <span style="cursor:help;" title="A tárgyak színe különböző.">Szín</span>
+- <span style="cursor:help;" title="Az egyik tárgy nagyobb\kisebb a másiknál.">Méret</span>
+- <span style="cursor:help;" title="A tárgyak mintázata (pl. pöttyös, csíkos, kockás) különböző.">Tárgyon belüli mintázat</span>
+- <span style="cursor:help;" title="A funkció szempontjából releváns státusz (pl. nyitott/zárt, egész/szeletelt) eltérő.">Állapot</span>
+- <span style="cursor:help;" title="A tárgyak alkalmassága (pl. praktikusság, kellemesség, előnyösség) eltérő.">Használhatóság</span>
+- <span style="cursor:help;" title="A tárgyak által nyújtott szolgáltatások, lehetőségek, vagy funkciók eltérnek.">Funkció</span>
+- <span style="cursor:help;" title="Az egyik képen több/kevesebb tárgy van a másiknál.">A tárgyak száma</span>
+- <span style="cursor:help;" title="A tárgyakból álló kompozíció, elrendezés különböző.">Elrendezés - ha több tárgy van a képen</span>
+
+l: inst3
+t: info
+q: A felsorolt tulajdonságok részben felszínes, kinézetbeli különbségekre vonatkoznak. Ilyen például a Szín, Méret.<br> Más tulajdonságok lényegesebb különbségekre utalnak. A következőkben minden tulajdonságra mutatunk Önnek egy-egy példát.
+
+page: end
+
+l: 
+t: info
+i: d037a.jpg d037b.jpg
+q: <b>Élesség</b><br>
+Ez a tulajdonság arra utal, hogy a képek a minőségükben, a képéllességben térnek el.
+
+l: 
+t: info
+i: d005a.jpg d005b.jpg
+q: A fenti képek eltérnek a következő tulajdonságban: <b>Pozíció</b>
+
+l: 
+t: info
+i: d017a.jpg d017b.jpg
+q: A fenti képek eltérnek a következő tulajdonságban: <b>Forma</b>
+
+l: 
+t: info
+i: d087a.jpg d087b.jpg
+q: A fenti képek eltérnek a következő tulajdonságban: <b>Szín</b>
+
+l: 
+t: info
+i: d062a.jpg d062b.jpg
+q: A fenti képek eltérnek a következő tulajdonságban: <b>Méret</b>
+
+l: 
+t: info
+i: d010a.jpg d010b.jpg
+q: A fenti képek eltérnek a következő tulajdonságban: <b>Tárgyon belüli mintázat</b>
+
+page: begin
+
+l: 
+t: info
+q: <b>Állapot</b><br>
+Az állapot tulajdonság a funkció szempontjából releváns státuszra vonatkozik. Például, a tárgy éppen <i>nyitott</i> vagy <i>zárt</i>, <i>be van kapcsolva</i> vagy <i>ki van kapcsolva</i>, <i>egészben</i> van vagy <i>felszeletelve</i> (pl. kenyér, gyümölcs).
+
+l: 
+t: info
+i: d015a.jpg d015b.jpg
+q: <b>Állapot</b>: Az egyik szennyesláda <i>ki van nyitva</i>, a másik <i>csukott</i>.
+
+
+l: 
+t: info
+i: d101a.jpg d101b.jpg
+q: <b>Állapot:</b> Az egyik doboz <i>üres</i>, míg a másikban ékszerek vannak.
+
+l: 
+t: info
+i: d140a.jpg d140b.jpg
+q: <b>Állapot:</b> Az egyik lámpa piros, melynek jelentése <i>STOP</i>, míg a másik zöld, melynek jelentése <i>MEHET</i>.
+
+page: end
+
+page: begin
+
+l: 
+t: info
+q: A <b>Használhatóság</b> tulajdonsággal azt tudja megjelölni, ha az egyik tárgyat alkalmasabbnak találja a használatra, mint a másikat.<br>
+Például, ha választania kellene a tárgyak közül, és úgy gondolja, hogy az egyik tárgy jobban betölti a funkcióját, praktikusabb, vagy bármi egyéb miatt kellemesebbnek, előnyösebbnek találja, akkor ezt a Használhatóság tulajdonsággal tudja jelölni. A Használhatóság egy szubjektív döntés.
+
+l: 
+t: info
+i: d114a.jpg d114b.jpg
+q: Ha az egyik hátizsák kényelmesebbnek, praktikusabbnak tűnik (pl. az anyaga vagy a zsebek elhelyezkedése miatt), akkor azt a <b>Használhatóság</b> tulajdonsággal tudja jelölni.
+
+l: 
+t: info
+i: d055a.jpg d055b.jpg
+q: Ha az egyik tál étel ízletesebbnek tűnik, akkor azt is a <b>Használhatóság</b> tulajdonsággal tudja jelölni.   
+
+page: end
+
+page: begin
+
+l: 
+t: info
+q: A <b>Funkció</b> tulajdonsággal azt tudja megadni, ha vannak különbségek a két tárgy nyújtotta szolgáltatásokban vagy lehetőségekben. 
+
+l: 
+t: info
+i: d027a.jpg d027b.jpg
+q: Például a fenti hűtők egyike kijelzővel is rendelkezik, tehát több információval tud szolgálni, ezért eltér a <b>Funkció</b> tulajdonságban. 
+
+l: 
+t: info
+i: d058a.jpg d058b.jpg
+q: A fenti képek eltérnek a <b>Funkció</b> tulajdonságban, mert az egyik egy légfrissítő, míg a másik egy tisztítószer. 
+
+page: end
+
+page: begin
+
+l: 
+t: info
+i: 
+q: <b>A tárgyak száma</b>
+
+l: 
+t: info
+i: d093a.jpg d093b.jpg
+q: A fenti képek eltérnek a következő tulajdonságban: <b>A tárgyak száma</b>. Az egyik képen egy kis tartály és csillámpor látható, míg a másikon csak csillámpor.
+
+l: 
+t: info
+i: d123a.jpg d123b.jpg
+q: Akkor is <b>A tárgyak száma</b> tulajdonságot válassza, ha a képen ugyanazok a tárgyak szerepelnek, csak más számban.  
+
+page: end
+
+page: begin
+
+l: 
+t: info
+i: 
+q: <b>Elrendezés</b>. Akkor jelölje meg eltérőként ezt a tulajdonságot, ha mindkét képen több tárgy szerepel, de különböző elrendezésben. 
+
+l: 
+t: info
+i: d006a.jpg d006b.jpg
+q: A fenti képek eltérnek a következő tulajdonságban: <b>Elrendezés</b>. 
+
+l: 
+t: info
+i: d056a.jpg d056b.jpg
+q: A fenti képek eltérnek a következő tulajdonságban: <b>Elrendezés</b>.
+
+page: end
+
+## Comprehension check ##
+
+scale: comprehension
+- Egyáltalán nem érthető
+- Lényegében nem érthető
+- Inkább nem érthető
+- Inkább érthető
+- Lényegében érthető 
+- Teljes mértékben érthető
+
+l: comprehension_check
+q: Mennyire volt érthető az Ön számára, hogy mit jelentenek az alábbi tulajdonságok?
+t: scale comprehension
+- <b>A kép élessége</b>
+- <b>Pozíció</b>
+- <b>Forma</b>
+- <b>Szín</b>
+- <b>Méret</b>
+- <b>Tárgyon belüli mintázat</b>
+- <b>Állapot</b>
+- <b>Használhatóság</b>
+- <b>Funkció</b>
+- <b>A tárgyak száma</b>
+- <b>Elrendezés</b> (ha több tárgy van a képen)
+
+##########################################################################################
+# Practice
+
+#################################################
+
+page: begin
+
+l: intro_practice
+t: info
+q: Most lehetősége lesz gyakorolni a feladatot.
+
+l: info_practice
+i: info_box.jpg
+t: info
+q: <br>Ha szüksége lenne rá, hogy átismételje, hogy az egyes tulajdonságok mit jelentenek, azt a gyakorlás alatt még megteheti. Csak húzza az egerét a tulajdonság nevére a képen látható módon. Amikor a kurzur a tulajdonság neve felett van, megjelenik egy szövegdoboz, amiben a tualdonság meghatározása olvasható. 
+
+l: start_practice
+t: info
+q: <b>Figyelem! Lehetnek olyan képek is, amelyek teljesen azonosak. Ezeknél a különbség mértékét adja meg 0-nak. </b> 
+
+page: end
+
+random: begin  
+
+l: sim_s147
+i: s147a.jpg s147a.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_s147
+i: s147a.jpg s147a.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+l: sim_s008
+i: s008a.jpg s008a.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_s008
+i: s008a.jpg s008a.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p001
+i: p001a.jpg p001b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p001
+i: p001a.jpg p001b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p002
+i: p002a.jpg p002b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p002
+i: p002a.jpg p002b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p003
+i: p003a.jpg p003b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p003
+i: p003a.jpg p003b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p004
+i: p004a.jpg p004b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p004
+i: p004a.jpg p004b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p005
+i: p005a.jpg p005b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p005
+i: p005a.jpg p005b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p022
+i: p022a.jpg p022b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p022
+i: p022a.jpg p022b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p023
+i: p023a.jpg p023b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p023
+i: p023a.jpg p023b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p024
+i: p024a.jpg p024b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p024
+i: p024a.jpg p024b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p025
+i: p025a.jpg p025b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p025
+i: p025a.jpg p025b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_p026
+i: p026a.jpg p026b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_p026
+i: p026a.jpg p026b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+random: end
+
+#########################################################################################
+
+l: start_info
+t: info
+q: Vége a gyakorlásnak. <b>Most kezdődik a feladat!</b> Ha szükségesnek érzi, a feladat elvégzése közben bármikor tarthat egy pár perces szünetet.
+
+##########################################################################################
+##################### START ##############################################################
+
+random: begin
+
+l: sim_s010
+i: s010a.jpg s010a.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_s010
+i: s010a.jpg s010a.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+l: sim_s048
+i: s048a.jpg s048a.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_s048
+i: s048a.jpg s048a.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+l: sim_s071
+i: s071a.jpg s071a.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_s071
+i: s071a.jpg s071a.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+l: sim_s079
+i: s079a.jpg s079a.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek? 
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_s079
+i: s079a.jpg s079a.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_008
+i: 008a.jpg 008b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_008
+i: 008a.jpg 008b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_011
+i: 011a.jpg 011b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_011
+i: 011a.jpg 011b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_012
+i: 012a.jpg 012b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_012
+i: 012a.jpg 012b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_013
+i: 013a.jpg 013b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_013
+i: 013a.jpg 013b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_022
+i: 022a.jpg 022b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_022
+i: 022a.jpg 022b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_023
+i: 023a.jpg 023b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_023
+i: 023a.jpg 023b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_031
+i: 031a.jpg 031b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_031
+i: 031a.jpg 031b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_033
+i: 033a.jpg 033b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_033
+i: 033a.jpg 033b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_045
+i: 045a.jpg 045b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_045
+i: 045a.jpg 045b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_052
+i: 052a.jpg 052b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_052
+i: 052a.jpg 052b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_059
+i: 059a.jpg 059b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_059
+i: 059a.jpg 059b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_061
+i: 061a.jpg 061b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_061
+i: 061a.jpg 061b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_068
+i: 068a.jpg 068b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_068
+i: 068a.jpg 068b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_075
+i: 075a.jpg 075b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_075
+i: 075a.jpg 075b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_083
+i: 083a.jpg 083b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_083
+i: 083a.jpg 083b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_090
+i: 090a.jpg 090b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_090
+i: 090a.jpg 090b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_092
+i: 092a.jpg 092b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_092
+i: 092a.jpg 092b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_094
+i: 094a.jpg 094b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_094
+i: 094a.jpg 094b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_098
+i: 098a.jpg 098b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_098
+i: 098a.jpg 098b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_099
+i: 099a.jpg 099b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_099
+i: 099a.jpg 099b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_100
+i: 100a.jpg 100b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_100
+i: 100a.jpg 100b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_101
+i: 101a.jpg 101b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_101
+i: 101a.jpg 101b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_103
+i: 103a.jpg 103b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_103
+i: 103a.jpg 103b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_114
+i: 114a.jpg 114b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_114
+i: 114a.jpg 114b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_116
+i: 116a.jpg 116b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_116
+i: 116a.jpg 116b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_119
+i: 119a.jpg 119b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_119
+i: 119a.jpg 119b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_128
+i: 128a.jpg 128b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_128
+i: 128a.jpg 128b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_134
+i: 134a.jpg 134b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_134
+i: 134a.jpg 134b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_140
+i: 140a.jpg 140b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_140
+i: 140a.jpg 140b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_155
+i: 155a.jpg 155b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_155
+i: 155a.jpg 155b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_156
+i: 156a.jpg 156b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_156
+i: 156a.jpg 156b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+#################################################
+
+l: sim_178
+i: 178a.jpg 178b.jpg
+o: require
+t: range
+q: Mennyire különböznek a képek?
+- {min=0,max=5,by=0.1,start=2.5,left=Azonosak (0),right=Nagyon különbözőek (5)}
+
+l: features_178
+i: 178a.jpg 178b.jpg
+t: scale diff
+o: table
+o: link
+o: free 
+q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
+- A kép élessége
+- Pozíció
+- Forma
+- Szín
+- Méret
+- Tárgyon belüli mintázat
+- Állapot
+- Használhatóság
+- Funkció
+- A tárgyak száma
+- Elrendezés - ha több tárgy van a képen
+
+random: end
