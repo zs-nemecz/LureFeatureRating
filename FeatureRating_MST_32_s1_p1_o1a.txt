@@ -194,7 +194,7 @@ scale: comprehension
 
 l: comprehension_check
 o: table
-q: Mennyire volt érthető az Ön számára, hogy mit jelentenek az alábbi tulajdonságok?
+q: <b>Mennyire volt érthető az Ön számára, hogy mit jelentenek az alábbi tulajdonságok?</b>
 t: scale comprehension
 - <b>A kép élessége</b>
 - <b>Pozíció</b>
@@ -222,7 +222,7 @@ q: Most lehetősége lesz gyakorolni a feladatot.
 l: info_practice
 i: info_box.jpg
 t: info
-q: <br>Ha szüksége lenne rá, hogy átismételje, hogy az egyes tulajdonságok mit jelentenek, azt a gyakorlás alatt még megteheti. Csak húzza az egerét a tulajdonság nevére a képen látható módon. Amikor a kurzur a tulajdonság neve felett van, megjelenik egy szövegdoboz, amiben a tualdonság meghatározása olvasható. 
+q: <br>Ha szüksége lenne rá, hogy átismételje, hogy az egyes tulajdonságok mit jelentenek, azt a gyakorlás alatt még megteheti. Csak húzza az egerét a tulajdonság nevére a képen látható módon. Amikor a kurzur a tulajdonság neve felett van, megjelenik egy szövegdoboz, amiben a tulajdonság meghatározása olvasható. 
 
 l: start_practice
 t: info
