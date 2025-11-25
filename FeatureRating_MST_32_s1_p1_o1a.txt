@@ -1,3 +1,4 @@
+# Todos: add demographics, move comprehension q to the end
 # Instructions
 
 page: begin
@@ -244,7 +245,7 @@ i: s147a.jpg s147a.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -270,7 +271,7 @@ i: s008a.jpg s008a.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -298,7 +299,7 @@ i: p001a.jpg p001b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -326,7 +327,7 @@ i: p002a.jpg p002b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -354,7 +355,7 @@ i: p003a.jpg p003b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -382,7 +383,7 @@ i: p004a.jpg p004b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -410,7 +411,7 @@ i: p005a.jpg p005b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -438,7 +439,7 @@ i: p022a.jpg p022b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -466,7 +467,7 @@ i: p023a.jpg p023b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -494,7 +495,7 @@ i: p024a.jpg p024b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -522,7 +523,7 @@ i: p025a.jpg p025b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -550,7 +551,7 @@ i: p026a.jpg p026b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - <span style="cursor:help;" title="A képek a minőségükben, a képéllességben eltérnek.">A kép élessége</span>
 - <span style="cursor:help;" title="A tárgyak az elhelyezkedése, helyzete különböző.">Pozíció</span>
@@ -589,7 +590,7 @@ i: s010a.jpg s010a.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -615,7 +616,7 @@ i: s048a.jpg s048a.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -641,7 +642,7 @@ i: s071a.jpg s071a.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -667,7 +668,7 @@ i: s079a.jpg s079a.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -695,7 +696,7 @@ i: 008a.jpg 008b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -723,7 +724,7 @@ i: 011a.jpg 011b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -751,7 +752,7 @@ i: 012a.jpg 012b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -779,7 +780,7 @@ i: 013a.jpg 013b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -807,7 +808,7 @@ i: 022a.jpg 022b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -835,7 +836,7 @@ i: 023a.jpg 023b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -863,7 +864,7 @@ i: 031a.jpg 031b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -891,7 +892,7 @@ i: 033a.jpg 033b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -919,7 +920,7 @@ i: 045a.jpg 045b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -947,7 +948,7 @@ i: 052a.jpg 052b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -975,7 +976,7 @@ i: 059a.jpg 059b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1003,7 +1004,7 @@ i: 061a.jpg 061b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1031,7 +1032,7 @@ i: 068a.jpg 068b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1059,7 +1060,7 @@ i: 075a.jpg 075b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1087,7 +1088,7 @@ i: 083a.jpg 083b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1115,7 +1116,7 @@ i: 090a.jpg 090b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1143,7 +1144,7 @@ i: 092a.jpg 092b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1171,7 +1172,7 @@ i: 094a.jpg 094b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1199,7 +1200,7 @@ i: 098a.jpg 098b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1227,7 +1228,7 @@ i: 099a.jpg 099b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1255,7 +1256,7 @@ i: 100a.jpg 100b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1283,7 +1284,7 @@ i: 101a.jpg 101b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1311,7 +1312,7 @@ i: 103a.jpg 103b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1339,7 +1340,7 @@ i: 114a.jpg 114b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1367,7 +1368,7 @@ i: 116a.jpg 116b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1395,7 +1396,7 @@ i: 119a.jpg 119b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1423,7 +1424,7 @@ i: 128a.jpg 128b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1451,7 +1452,7 @@ i: 134a.jpg 134b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1479,7 +1480,7 @@ i: 140a.jpg 140b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1507,7 +1508,7 @@ i: 155a.jpg 155b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1535,7 +1536,7 @@ i: 156a.jpg 156b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
@@ -1563,7 +1564,7 @@ i: 178a.jpg 178b.jpg
 t: scale diff
 o: table
 o: link
-o: free 
+o: require 
 q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható tárgyak?</b><br>
 - A kép élessége
 - Pozíció
