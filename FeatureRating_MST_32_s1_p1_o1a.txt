@@ -587,7 +587,7 @@ random: end
 
 l: start_info
 t: info
-q: Vége a gyakorlásnak. <b>Most kezdődik a feladat!</b> Ha szükségesnek érzi, a feladat elvégzése közben bármikor tarthat egy <b>maximum 5 perces szünetet</b>.
+q: Vége a gyakorlásnak. <b>Most kezdődik a feladat!</b> Ha szükségesnek érzi, a feladat elvégzése közben bármikor tarthat egy <b>maximum 5 perces szünetet</b>.<br><b>Figyelem! Lehetnek olyan képek is, amelyek teljesen azonosak. Ezeknél a különbség mértékét adja meg 0-nak.</b>
 
 ##########################################################################################
 ##################### START ##############################################################
