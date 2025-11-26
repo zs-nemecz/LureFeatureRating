@@ -1,4 +1,46 @@
-# Todos: add demographics, move comprehension q to the end
+# Demographics
+
+page: begin
+
+l: age
+t: textline
+q: Mi az Ön életkora?
+- {require}
+
+l: sex
+t: radio
+q: Mi az Ön neme?
+- Férfi
+- Nő
+- Nem kívánom megadni
+
+l: year_of_education
+t: textline
+q: Hány évig részesült formális oktatásban?
+- {require}
+
+page: end
+
+l: participated_terkepesz
+t: radio
+q: Részt vett/vesz Ön a <b>TérKépÉsz</b> kutatásban?<br>A TérKépÉsz a Természettudományi Kutatóközpont négy éven át tartó MRI (mágneses rezonancia képalkotás) kutatása. A kutatás témája az egészséges idősödés és az emlékezet.  
+- Igen
+- Nem
+
+l: participated_before
+t: radio
+q: Részt vett korábban a laborunk bármelyik vizsgálatában?
+- Igen
+- Nem
+
+l: 
+t: jump
+- if $participated_before == 2 then skip next
+
+l: participated_in
+t: textbox
+q: Kérjük, írja le, laborunk melyik vizsgálatában vett részt.
+
 # Instructions
 
 page: begin
@@ -183,32 +225,6 @@ q: A fenti képek eltérnek a következő tulajdonságban: <b>Elrendezés</b>.
 
 page: end
 
-## Comprehension check ##
-
-scale: comprehension
-- Egyáltalán nem érthető
-- Lényegében nem érthető
-- Inkább nem érthető
-- Inkább érthető
-- Lényegében érthető 
-- Teljes mértékben érthető
-
-l: comprehension_check
-o: table
-q: <b>Mennyire volt érthető az Ön számára, hogy mit jelentenek az alábbi tulajdonságok?</b>
-t: scale comprehension
-- <b>A kép élessége</b>
-- <b>Pozíció</b>
-- <b>Forma</b>
-- <b>Szín</b>
-- <b>Méret</b>
-- <b>Tárgyon belüli mintázat</b>
-- <b>Állapot</b>
-- <b>Használhatóság</b>
-- <b>Funkció</b>
-- <b>A tárgyak száma</b>
-- <b>Elrendezés</b> (ha több tárgy van a képen)
-
 ##########################################################################################
 # Practice
 
@@ -223,7 +239,7 @@ q: Most lehetősége lesz gyakorolni a feladatot.
 l: info_practice
 i: info_box.jpg
 t: info
-q: <br>Ha szüksége lenne rá, hogy átismételje, hogy az egyes tulajdonságok mit jelentenek, azt a gyakorlás alatt még megteheti. Csak húzza az egerét a tulajdonság nevére a képen látható módon. Amikor a kurzur a tulajdonság neve felett van, megjelenik egy szövegdoboz, amiben a tulajdonság meghatározása olvasható. 
+q: <br>Ha szüksége lenne rá, hogy átismételje, hogy az egyes tulajdonságok mit jelentenek, azt a gyakorlás alatt még megteheti. Csak húzza az egerét a tulajdonság nevére a képen látható módon. Amikor a kurzor a tulajdonság neve felett van, megjelenik egy szövegdoboz, amiben a tulajdonság meghatározása olvasható. 
 
 l: start_practice
 t: info
@@ -1579,3 +1595,29 @@ q: <br><b>Milyen tulajdonságokban térnek el a képek és a képeken látható 
 - Elrendezés - ha több tárgy van a képen
 
 random: end
+
+## Comprehension check ##
+
+scale: comprehension
+- Egyáltalán nem érthető
+- Lényegében nem érthető
+- Inkább nem érthető
+- Inkább érthető
+- Lényegében érthető 
+- Teljes mértékben érthető
+
+l: comprehension_check
+o: table
+q: <b>Mennyire volt érthető az Ön számára, hogy mit jelentenek az alábbi tulajdonságok?</b>
+t: scale comprehension
+- <b>A kép élessége</b>
+- <b>Pozíció</b>
+- <b>Forma</b>
+- <b>Szín</b>
+- <b>Méret</b>
+- <b>Tárgyon belüli mintázat</b>
+- <b>Állapot</b>
+- <b>Használhatóság</b>
+- <b>Funkció</b>
+- <b>A tárgyak száma</b>
+- <b>Elrendezés</b> (ha több tárgy van a képen)
